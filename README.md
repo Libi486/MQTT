@@ -4,6 +4,11 @@ Run subscriber.py in one window.
 Run publisher.py in the other.
 You should see the message appear in the subscriber window.
 
+🧠 How It Works
+Uses HiveMQ public broker.
+Publisher sends messages to libin/livechat.
+Subscriber listens and prints incoming messages.
+
 Things to Install
 pip install paho-mqtt
 
